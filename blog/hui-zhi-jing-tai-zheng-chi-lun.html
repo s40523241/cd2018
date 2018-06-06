@@ -304,7 +304,7 @@ def setgearnumber(e):
     if doc["n"].value.isdigit():
         n1 = int(doc["n"].value)
     else:
-        n1= 42
+        n1= 41
     # 設定齒輪參數
     x = (canvas.width)/2
     y = (canvas.height)/2
@@ -465,7 +465,7 @@ def setgearnumber(e):
     if doc["n"].value.isdigit():
         n1 = int(doc["n"].value)
     else:
-        n1= 42
+        n1= 41
     # 設定齒輪參數
     x = (canvas.width)/2
     y = (canvas.height)/2
@@ -511,7 +511,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <div id="cango_gear_div" width="800" height="20"></div>
 
-<p><input id="cn" value="42"></input><br />
+<p><input id="cn" value="41"></input><br />
 <button id="button_a">Set Number of Gears</button></p>
 <script type="text/python">
 # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
@@ -548,7 +548,7 @@ def draw(e):
     if doc["cn"].value.isdigit():
         cn1 = int(doc["cn"].value)
     else:
-        cn1= 42
+        cn1= 41
 # pa 為壓力角
     pa = 25
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
@@ -626,7 +626,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 <div id="cango_gear_div" width="800" height="20"></div>
 
-<p><input id="cn" value="42"></input><br />
+<p><input id="cn" value="41"></input><br />
 <button id="button_a">Set Number of Gears</button></p>
 <script type="text/python">
 # 將 導入的 document 設為 doc 主要原因在於與舊程式碼相容
@@ -663,7 +663,7 @@ def draw(e):
     if doc["cn"].value.isdigit():
         cn1 = int(doc["cn"].value)
     else:
-        cn1= 42
+        cn1= 41
 # pa 為壓力角
     pa = 25
 # m 為模數, 根據畫布的寬度, 計算適合的模數大小
